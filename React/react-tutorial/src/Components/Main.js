@@ -1,20 +1,11 @@
-// const name = "Sameera Jayakodi";
-
-// const myObj = {
-//   name: `${name}`,
-//   city: "diyathalawa",
-// };
-
-function Main({ children, name, uni }) {
-  //   const { city } = myObj;
-  //   const { name } = myObj;
+function Main({ name, university, age, city }) {
   return (
     <div>
-      This is main Component <h3>{name}</h3>
-      <h1>
-        {name} {uni}
-      </h1>
-      {children}
+      <h1>This is Main component</h1>
+      <h2>{name}</h2>
+      <h3>{university}</h3>
+      <h3>{age}</h3>
+      <h3>{city}</h3>
     </div>
   );
 }

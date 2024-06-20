@@ -1,20 +1,24 @@
 import "./App.css";
 import Main from "./Components/Main";
+import { myData } from "./Data/Mydata";
+// import myData from "./Data/Mydata";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>hello sameera</h1>
-      </div>
       <Main />
-
-      <Main>
-        <h5>Override Main Component //child</h5>
-      </Main>
-
-      <Main name="chandika" uni="nsbm" />
-      <Main name="sakuja" uni="uoj" />
+      <Main>This is child component</Main>
+      {myData.map(({ name, university, age, city, id }) => {
+        return (
+          <Main
+            key={id}
+            name={name}
+            university={university}
+            age={age}
+            city={city}
+          />
+        );
+      })}
     </>
   );
 }
