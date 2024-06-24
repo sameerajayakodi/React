@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="transition-colors duration-300 bg-gray-100 font-inter dark:bg-gray-900 dark:text-gray-100"
+  >
+    <header
+      class="py-4 transition-colors duration-300 bg-white shadow-md dark:bg-gray-800"
+    >
+      <div class="container flex items-center justify-between mx-auto">
+        <h1 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+          My Portfolio
+        </h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a
+                href="#about"
+                class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          id="theme-toggle"
+          class="px-4 py-2 text-white transition duration-300 bg-blue-500 rounded-lg hover:bg-blue-600"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="container mx-auto mt-10">
+      <section
+        id="about"
+        class="p-6 mb-10 transition-colors duration-300 bg-white rounded-lg shadow-lg dark:bg-gray-800"
+      >
+        <div class="flex items-center">
+          <img
+            src="your-photo.jpg"
+            alt="Your Photo"
+            class="w-32 h-32 mr-6 rounded-full shadow-md"
+          />
+          <div>
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
+              About Me
+            </h2>
+            <p class="mt-4 text-gray-600 dark:text-gray-300">
+              Hello! I'm [Your Name], a passionate developer with experience in
+              web development, design, and more. I love creating beautiful and
+              functional websites that provide a great user experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="projects"
+        class="p-6 mb-10 transition-colors duration-300 bg-white rounded-lg shadow-lg dark:bg-gray-800"
+      >
+        <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
+          Projects
+        </h2>
+        <div class="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
+          <div
+            class="p-4 transition duration-300 transform bg-gray-100 rounded-lg shadow dark:bg-gray-700 hover:shadow-lg hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100">
+              Project 1
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300">
+              Description of project 1.
+            </p>
+          </div>
+          <div
+            class="p-4 transition duration-300 transform bg-gray-100 rounded-lg shadow dark:bg-gray-700 hover:shadow-lg hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100">
+              Project 2
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300">
+              Description of project 2.
+            </p>
+          </div>
+          <div
+            class="p-4 transition duration-300 transform bg-gray-100 rounded-lg shadow dark:bg-gray-700 hover:shadow-lg hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100">
+              Project 3
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300">
+              Description of project 3.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="p-6 mb-10 transition-colors duration-300 bg-white rounded-lg shadow-lg dark:bg-gray-800"
+      >
+        <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
+          Contact
+        </h2>
+        <form class="mt-6">
+          <div class="grid grid-cols-1 gap-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="p-4 text-gray-800 bg-gray-100 border border-gray-300 rounded-lg dark:border-gray-700 dark:bg-gray-700 dark:text-gray-100"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="p-4 text-gray-800 bg-gray-100 border border-gray-300 rounded-lg dark:border-gray-700 dark:bg-gray-700 dark:text-gray-100"
+            />
+            <textarea
+              placeholder="Your Message"
+              class="h-32 p-4 text-gray-800 bg-gray-100 border border-gray-300 rounded-lg dark:border-gray-700 dark:bg-gray-700 dark:text-gray-100"
+            ></textarea>
+            <button
+              type="submit"
+              class="px-4 py-2 text-white transition duration-300 bg-blue-500 rounded-lg hover:bg-blue-600"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer
+      class="py-4 transition-colors duration-300 bg-white shadow-md dark:bg-gray-800"
+    >
+      <div
+        class="container mx-auto text-center text-gray-600 dark:text-gray-300"
+      >
+        &copy; 2024 [Your Name]. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
