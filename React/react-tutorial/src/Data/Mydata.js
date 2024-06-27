@@ -31,7 +31,7 @@ export const myData = [
     university: "Stanford",
     age: 35,
     image:
-      "https://images.unsplash.com/photo-1466378743612-9da217f53e55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlfGVufDB8MHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1552666262-1f35b9080e83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGltYWdlfGVufDB8MHwwfHx8MA%3D%3D",
     city: "Palo Alto",
   },
 ];
