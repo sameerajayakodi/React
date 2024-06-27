@@ -1,15 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 import Main from "./Components/Main";
 import Nav from "./Components/Nav";
 import { myData, navItems } from "./Data/Mydata";
 // import myData from "./Data/Mydata";
-
-let myvar = "Sameera Jayakdoi";
-
-const changeEvent = () => {
-  myvar = "Chandika Sameera";
-  console.log(myvar);
-};
 
 const mainblock = myData?.map(({ name, university, age, city, id, image }) => {
   return (
@@ -48,13 +42,22 @@ const NewBlock = () => {
 //   );
 // });
 function App() {
+  const name = "Sameera Jayakodi";
+
+  const [myVar, setMyVar] = useState(name);
+
+  const changeEvent = () => {
+    setMyVar("Chandika Sameera");
+    console.log(myVar);
+  };
+
   return (
     <div className="items-center justify-center flex-col">
       <div className=" hidden md:flex font-bold font-mono text-lg gap-8 bg-slate-200 p-2  text-center justify-center items-center ">
         {navBlock}
       </div>
 
-      <h2>Sameera Jayakodi</h2>
+      <h1>{myVar}</h1>
       {/* <Main />
       <Main>This is child component</Main> */}
       {/* {mainBlock} */}
@@ -66,7 +69,10 @@ function App() {
       </div>
 
       <div>
-        <button className=" ml-7 flex items-center justify-center bg-blue-500 text-white py-1 px-2 rounded-xl hover:bg-blue-800 ">
+        <button
+          onClick={changeEvent}
+          className=" ml-7 flex items-center justify-center bg-blue-500 text-white py-1 px-2 rounded-xl hover:bg-blue-800 "
+        >
           Click Me
         </button>
       </div>
