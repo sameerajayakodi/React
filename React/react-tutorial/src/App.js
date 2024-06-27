@@ -31,12 +31,17 @@ const NewBlock = () => {
 function App() {
   return (
     <>
-      <Main />
-      <Main>This is child component</Main>
+      {/* <Main />
+      <Main>This is child component</Main> */}
       {/* {mainBlock} */}
 
-      <NewBlock />
-      {mainblock}
+      {/* <NewBlock /> */}
+
+      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {mainblock}
+        {mainblock}
+        {mainblock}
+      </div>
     </>
   );
 }
