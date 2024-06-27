@@ -3,9 +3,16 @@ import Main from "./Components/Main";
 import { myData } from "./Data/Mydata";
 // import myData from "./Data/Mydata";
 
-const mainblock = myData?.map(({ name, university, age, city, id }) => {
+const mainblock = myData?.map(({ name, university, age, city, id, image }) => {
   return (
-    <Main key={id} name={name} university={university} age={age} city={city} />
+    <Main
+      key={id}
+      name={name}
+      university={university}
+      age={age}
+      city={city}
+      image={image}
+    />
   );
 });
 
@@ -37,7 +44,7 @@ function App() {
 
       {/* <NewBlock /> */}
 
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="  max-w-screen grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {mainblock}
         {mainblock}
         {mainblock}

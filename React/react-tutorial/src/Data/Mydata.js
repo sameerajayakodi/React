@@ -4,6 +4,8 @@ export const myData = [
     name: "John Doe",
     university: "Harvard",
     age: 30,
+    image:
+      "https://images.unsplash.com/photo-1466378743612-9da217f53e55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlfGVufDB8MHwwfHx8MA%3D%3D",
     city: "Boston",
   },
   {
@@ -11,6 +13,7 @@ export const myData = [
     name: "Jane Smith",
     university: "Oxford",
     age: 28,
+    image: "",
     city: "Oxford",
   },
   {
@@ -18,6 +21,7 @@ export const myData = [
     name: "Alice Johnson",
     university: "MIT",
     age: 22,
+    image: "",
     city: "Cambridge",
   },
   {
@@ -25,6 +29,8 @@ export const myData = [
     name: "Bob Brown",
     university: "Stanford",
     age: 35,
+    image:
+      "https://images.unsplash.com/photo-1466378743612-9da217f53e55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlfGVufDB8MHwwfHx8MA%3D%3D",
     city: "Palo Alto",
   },
 ];
