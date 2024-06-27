@@ -1,8 +1,8 @@
 function Main({ name, university, age, city, image }) {
   return (
-    <div className=" my-4 mx-4 border-slate-950 border-4 justify-center rounded-lg">
+    <div className="flex-col my-4 mx-4 border-slate-950 border-4 justify-center rounded-lg">
       <img
-        className="flex flex-col relative p-2 "
+        className=" flex flex-col relative p-2 "
         src={
           image
             ? `${image}`
