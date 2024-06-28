@@ -60,9 +60,10 @@ function App() {
               Test
             </span>
           </a>
+          <div class="w-full md:block md:w-auto hidden" id="mobile-menu"></div>
         </div>
       </nav>
-      <div className="items-center justify-center hidden gap-8 p-2 font-mono text-lg font-bold text-center  md:flex bg-slate-200">
+      <div className="items-center justify-center hidden gap-8 p-2 font-mono text-lg font-bold text-center md:flex bg-slate-200">
         {navBlock}
       </div>
 
@@ -73,14 +74,14 @@ function App() {
 
       {/* <NewBlock /> */}
 
-      <div className="grid gap-8  max-w-screen sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid gap-8 max-w-screen sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {mainblock}
       </div>
 
       <div>
         <button
           onClick={changeEvent}
-          className="flex items-center justify-center px-2 py-1 text-white bg-blue-500  ml-7 rounded-xl hover:bg-blue-800"
+          className="flex items-center justify-center px-2 py-1 text-white bg-blue-500 ml-7 rounded-xl hover:bg-blue-800"
         >
           Click Me
         </button>
