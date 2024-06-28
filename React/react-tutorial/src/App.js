@@ -52,8 +52,17 @@ function App() {
   };
 
   return (
-    <div className="items-center justify-center flex-col">
-      <div className=" hidden md:flex font-bold font-mono text-lg gap-8 bg-slate-200 p-2  text-center justify-center items-center ">
+    <div className="flex-col items-center justify-center">
+      <nav class="bg-white border border-gray-200 dark:border-gray-700 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 shadow">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="/" class="flex items-center">
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              Test
+            </span>
+          </a>
+        </div>
+      </nav>
+      <div className="items-center justify-center hidden gap-8 p-2 font-mono text-lg font-bold text-center  md:flex bg-slate-200">
         {navBlock}
       </div>
 
@@ -64,14 +73,14 @@ function App() {
 
       {/* <NewBlock /> */}
 
-      <div className="  max-w-screen grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid gap-8  max-w-screen sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {mainblock}
       </div>
 
       <div>
         <button
           onClick={changeEvent}
-          className=" ml-7 flex items-center justify-center bg-blue-500 text-white py-1 px-2 rounded-xl hover:bg-blue-800 "
+          className="flex items-center justify-center px-2 py-1 text-white bg-blue-500  ml-7 rounded-xl hover:bg-blue-800"
         >
           Click Me
         </button>
