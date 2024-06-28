@@ -9,7 +9,9 @@ const Nav = ({label}) => {
 
         <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
-        <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'></span>
+        <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>
+          Test
+        </span>
         </a>
         </div>
 
