@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = ({label}) => {
   return (
-    <div >
+    <div className=' hover:underline text-zinc-900'>
         {label}
 
         <div class="w-full md:block md:w-auto hidden" id="mobile-menu">
