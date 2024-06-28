@@ -60,7 +60,6 @@ function App() {
               Test
             </span>
           </a>
-          <div class="w-full md:block md:w-auto hidden" id="mobile-menu"></div>
         </div>
       </nav>
       <div className="items-center justify-center hidden gap-8 p-2 font-mono text-lg font-bold text-center md:flex bg-slate-200">
