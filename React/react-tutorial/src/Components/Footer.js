@@ -20,7 +20,7 @@ const Footer = () => {
           <p>
             Sameera Jayakodi
             <br />
-            Providing reliable tech since 1992
+            @2024
           </p>
         </aside>
         <nav>
