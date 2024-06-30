@@ -23,6 +23,13 @@ const Footer = () => {
             Providing reliable tech since 1992
           </p>
         </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
       </footer>
     </div>
   );
