@@ -37,6 +37,12 @@ const Footer = () => {
           <a class="link link-hover">Jobs</a>
           <a class="link link-hover">Press kit</a>
         </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
       </footer>
     </div>
   );
