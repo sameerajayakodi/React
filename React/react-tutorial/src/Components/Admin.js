@@ -236,6 +236,25 @@ const Admin = () => {
               <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currenColor" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-6 w-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"></path>
+                  </svg>
+              </span>
+            </button>
+          </div>
+          <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+            <table class="w-full min-w-[640px] table-auto">
+              <thead>
+                <tr>
+                  <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                    <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">companies</p>
+                  </th>
+                  <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                    <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">budget</p>
+                  </th>
+                  <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                    <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">completion</p>
+                  </th>
+                </tr>
+              </thead>
 
     </div>
   )
