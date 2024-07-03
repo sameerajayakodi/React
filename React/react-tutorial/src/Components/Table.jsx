@@ -110,7 +110,10 @@ const Table = () => {
             </td>
           </tr>
         </tbody>
-
+        </table>
+    </div>
+  </div>
+</div>
     </div>
   )
 }
