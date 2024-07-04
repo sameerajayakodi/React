@@ -44,7 +44,11 @@ const NewBlock = () => {
 function App() {
   const name = "Sameera Jayakodi";
 
-  const [myVar, setMyVar] = useState(name);
+  const [myVar, setMyVar] = useState({
+    name: "Bob Brown",
+    university: "Stanford",
+    age: 35,
+  });
 
   const changeEvent = () => {
     setMyVar("Chandika Sameera");
