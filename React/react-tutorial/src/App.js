@@ -50,6 +50,8 @@ function App() {
     age: 35,
   });
 
+  const [myDataState, setMyDataState] = useState(myData);
+
   const changeEvent = () => {
     setMyVar({
       ...myVar,
