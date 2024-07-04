@@ -61,7 +61,7 @@ function App() {
         {navBlock}
       </div>
 
-      <h1>{myVar}</h1>
+      <h1>{myVar.name}</h1>
       {/* <Main />
       <Main>This is child component</Main> */}
       {/* {mainBlock} */}
