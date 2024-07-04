@@ -18,7 +18,7 @@ const mainblock = myData?.map(({ name, university, age, city, id, image }) => {
   );
 });
 
-const navBlock = navItems?.map(({ label, index }) => {
+const navBlock = navItems?.map(({ label }, index) => {
   return <Nav key={index} label={label} />;
 });
 
@@ -61,10 +61,10 @@ function App() {
     setMyDataState([
       ...myDataState,
       {
-        id: "4",
-        name: "Bob Brown",
+        id: "8",
+        name: "Bob Brown Change",
         university: "Stanford",
-        age: 35,
+        age: 80,
         image:
           "https://images.unsplash.com/photo-1552666262-1f35b9080e83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGltYWdlfGVufDB8MHwwfHx8MA%3D%3D",
         city: "Palo Alto",
@@ -73,6 +73,21 @@ function App() {
 
     console.log(myVar);
   };
+
+  const mainblock = myDataState?.map(
+    ({ name, university, age, city, id, image }, index) => {
+      return (
+        <Main
+          key={id + index}
+          name={name}
+          university={university}
+          age={age}
+          city={city}
+          image={image}
+        />
+      );
+    }
+  );
 
   return (
     <div className="flex-col items-center justify-center">

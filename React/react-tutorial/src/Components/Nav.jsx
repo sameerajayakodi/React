@@ -5,8 +5,8 @@ const Nav = ({label}) => {
     <div className=' hover:underline text-zinc-900'>
        
 
-        <div class="w-full md:block md:w-auto hidden" id="mobile-menu">
-        <ul class="text-2xl flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium">
+        <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <ul className="flex flex-col mt-4 text-2xl md:flex-row md:space-x-8 md:mt-0 md:font-medium">
        
          
             {label}
