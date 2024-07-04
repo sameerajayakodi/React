@@ -113,6 +113,7 @@ function App() {
         >
           Click Me
         </button>
+        <input type="text" className="box-border " >
       </div>
     </div>
   );
