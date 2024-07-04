@@ -51,7 +51,10 @@ function App() {
   });
 
   const changeEvent = () => {
-    setMyVar("Chandika Sameera");
+    setMyVar({
+      ...myVar,
+      name: "Sameera Sameera",
+    });
     console.log(myVar);
   };
 
