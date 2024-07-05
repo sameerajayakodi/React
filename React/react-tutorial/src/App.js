@@ -88,6 +88,12 @@ function App() {
     }
   );
 
+  const inputChangeHandle = (event, data) => {
+    event.preventDefault();
+    console.log(data);
+    setInputVal(event.target.value);
+  };
+
   return (
     <div className="flex-col items-center justify-center">
       <div className="items-center justify-center hidden gap-8 p-2 font-mono text-lg font-bold text-center md:flex bg-slate-200">
