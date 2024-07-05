@@ -118,7 +118,7 @@ function App() {
       <input
         onChange={(e) => {
           e.preventDefault();
-          setIn;
+          setInputVal(e.target.value);
         }}
         placeholder="type what you want"
         type="text"
