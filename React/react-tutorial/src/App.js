@@ -71,10 +71,8 @@ function App() {
         city: "Palo Alto",
       },
     ]);
-
-    console.log(myVar);
   };
-
+  console.log(inputVal);
   const mainblock = myDataState?.map(
     ({ name, university, age, city, id, image }, index) => {
       return (
