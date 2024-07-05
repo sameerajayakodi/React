@@ -54,7 +54,10 @@ function App() {
   const [inputVal, setInputVal] = useState(0);
 
   const changeEvent = () => {
-    setInputVal(inputVal + 1);
+    setTimeout(() => {
+      console.log("I am clicked");
+      setInputVal(inputVal + 1);
+    }, 3000);
 
     // setMyDataState([
     //   ...myDataState,
