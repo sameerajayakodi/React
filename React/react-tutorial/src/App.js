@@ -61,6 +61,8 @@ function App() {
           return pre + 1;
         } else if (pre < 2) {
           return pre + 3;
+        } else {
+          return pre + 2;
         }
       });
     }, 2000);
