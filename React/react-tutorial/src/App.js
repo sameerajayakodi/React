@@ -51,6 +51,7 @@ function App() {
   });
 
   const [myDataState, setMyDataState] = useState(myData);
+  const [inputVal, setInputVal] = useState("");
 
   const changeEvent = () => {
     setMyVar({
@@ -115,6 +116,10 @@ function App() {
         </button>
       </div>
       <input
+        onChange={(e) => {
+          e.preventDefault();
+          setIn;
+        }}
         placeholder="type what you want"
         type="text"
         id="input"
