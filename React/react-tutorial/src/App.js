@@ -115,6 +115,7 @@ function App() {
         </button>
       </div>
       <input
+        placeholder="type what you want"
         type="text"
         id="input"
         className="px-10 py-2 mt-2 font-mono text-2xl font-bold text-red-500 border border-gray-300 text-re "
