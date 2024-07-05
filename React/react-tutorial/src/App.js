@@ -56,8 +56,14 @@ function App() {
   const changeEvent = () => {
     setTimeout(() => {
       console.log("I am clicked");
-      setInputVal((pre) => pre + 1);
-    }, 3000);
+      setInputVal((pre) => {
+        if (pre < 1) {
+          return pre + 1;
+        } else if (pre < 2) {
+          return pre + 3;
+        }
+      });
+    }, 2000);
 
     // setMyDataState([
     //   ...myDataState,
