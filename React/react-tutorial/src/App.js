@@ -121,7 +121,7 @@ function App() {
       </div>
       <input
         onChange={(e) => {
-          inputChangeHandle();
+          inputChangeHandle(e, inputVal);
         }}
         placeholder="type what you want"
         type="text"
