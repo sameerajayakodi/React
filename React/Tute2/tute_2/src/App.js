@@ -13,7 +13,7 @@ function App() {
   console.log(myData);
   return (
     <div className="main_container">
-      <div className="main_right">
+      <div className="main_left">
         <input
           type="text"
           placeholder="Image URL"
@@ -87,11 +87,11 @@ function App() {
           }}
         ></input>
       </div>
-      <div className="main_left">
-        {myData?.map(({ imgUrl, name, city, position }, index) => (
+      <div className="main_right">
+        {myData?.map(({ img, name, city, position }, index) => (
           <Unit
             key={index}
-            image={imgUrl}
+            img={img}
             name={name}
             city={city}
             position={position}
