@@ -70,6 +70,7 @@ function App() {
                 return pre;
               }
             });
+            setName((pre) => (pre.length > 0 ? "" : pre));
           }}
         ></input>
       </div>
