@@ -8,6 +8,7 @@ function App() {
         <input type="text" placeholder="" />
         <input type="text" placeholder="" />
         <input type="text" placeholder="" />
+        <input type="button" value="Click Me"></input>
       </div>
       <div className="main_right"></div>
     </div>
