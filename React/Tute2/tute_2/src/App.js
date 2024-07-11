@@ -9,10 +9,14 @@ function App() {
   return (
     <div className="main_container">
       <div className="main_right">
-        <input type="text" placeholder="Image URL" />
-        <input type="text" placeholder="Name" />
-        <input type="text" placeholder="City" />
-        <input type="text" placeholder="Position" />
+        <input type="text" placeholder="Image URL" value={imgUrl} />
+        <br />
+        <input type="text" placeholder="Name" value={name} />
+        <br />
+        <input type="text" placeholder="City" value={city} />
+        <br />
+        <input type="text" placeholder="Position" value={position} />
+        <br />
         <input type="button" value="Submit"></input>
       </div>
       <div className="main_right"></div>
