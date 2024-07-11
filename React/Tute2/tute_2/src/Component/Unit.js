@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Unit.css";
 
 const Unit = ({ image, name, city, position }) => {
   return (

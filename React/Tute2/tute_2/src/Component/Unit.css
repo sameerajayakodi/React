@@ -1,0 +1,6 @@
+.unit_container {
+  padding: 5px;
+  border: 2px solid palevioletred;
+  justify-content: center;
+  align-items: center;
+}
