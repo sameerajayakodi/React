@@ -54,6 +54,7 @@ function App() {
         <br />
         <br />
         <input
+          className="button"
           type="button"
           value="Submit"
           onClick={() => {
@@ -76,7 +77,7 @@ function App() {
           }}
         ></input>
       </div>
-      <div className="main_right"></div>
+      <div className="main_left"></div>
     </div>
   );
 }
