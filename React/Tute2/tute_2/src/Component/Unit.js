@@ -5,7 +5,7 @@ const Unit = ({ image, name, city, position }) => {
     <div className="unit_container">
       <img src={image} alt={name} />
       <br />
-      <h3>{name}</h3>
+      <h2>{name}</h2>
       <h4>{city}</h4>
       <p>{position}</p>
     </div>
