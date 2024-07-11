@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Unit from "./Component/Unit";
 
 function App() {
   const [imgUrl, setImgUrl] = useState("");
@@ -86,7 +87,17 @@ function App() {
           }}
         ></input>
       </div>
-      <div className="main_left"></div>
+      <div className="main_left">
+        {myData?.map(({ imgUrl, name, city, position }, index) => (
+          <Unit
+            key={index}
+            image={imgUrl}
+            name={name}
+            city={city}
+            position={position}
+          />
+        ))}
+      </div>
     </div>
   );
 }
