@@ -66,7 +66,7 @@ function App() {
               return [
                 ...pre,
                 {
-                  imgUrl,
+                  image: imgUrl,
                   name,
                   city,
                   position,
