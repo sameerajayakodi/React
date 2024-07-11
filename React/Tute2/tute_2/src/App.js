@@ -71,6 +71,8 @@ function App() {
               }
             });
             setName((pre) => (pre.length > 0 ? "" : pre));
+            setPosition((pre) => (pre.length > 0 ? "" : pre));
+            setCity((pre) => (pre.length > 0 ? "" : pre));
           }}
         ></input>
       </div>
