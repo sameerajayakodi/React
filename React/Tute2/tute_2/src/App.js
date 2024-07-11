@@ -88,10 +88,10 @@ function App() {
         ></input>
       </div>
       <div className="main_right">
-        {myData?.map(({ img, name, city, position }, index) => (
+        {myData?.map(({ image, name, city, position }, index) => (
           <Unit
             key={index}
-            img={img}
+            image={image}
             name={name}
             city={city}
             position={position}

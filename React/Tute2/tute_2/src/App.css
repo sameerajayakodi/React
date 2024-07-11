@@ -1,18 +1,14 @@
 .main_container {
-  display: flex;
-
   padding: 5px;
   margin: 0 auto;
 }
 .main_left {
-  min-width: 300px;
   border-radius: 5px;
   padding: 10px;
   border: 2px solid rgb(11, 155, 11);
-  display: grid;
+
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+
   margin: 0 auto;
 }
 
@@ -43,13 +39,19 @@ input {
 }
 
 .main_right {
-  min-width: 300px;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
   border-radius: 5px;
   padding: 10px;
   border: 2px solid rgb(155, 11, 11);
   display: grid;
-  margin: 0 auto;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 17px;
+}
+
+.unit_container {
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
