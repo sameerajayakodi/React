@@ -8,6 +8,8 @@ function App() {
   const [position, setPosition] = useState("");
 
   const [myData, setMyData] = useState([]);
+
+  console.log(myData);
   return (
     <div className="main_container">
       <div className="main_right">
@@ -74,6 +76,7 @@ function App() {
             setImgUrl((pre) => {
               if (pre.length > 0) {
                 return "";
+                y;
               } else {
                 return pre;
               }
