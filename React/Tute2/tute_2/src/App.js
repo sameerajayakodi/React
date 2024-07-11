@@ -9,13 +9,49 @@ function App() {
   return (
     <div className="main_container">
       <div className="main_right">
-        <input type="text" placeholder="Image URL" value={imgUrl} />
+        <input
+          type="text"
+          placeholder="Image URL"
+          value={imgUrl}
+          onChange={(e) => {
+            e.preventDefault();
+            setImgUrl(e.target.value);
+          }}
+        />
         <br />
-        <input type="text" placeholder="Name" value={name} />
         <br />
-        <input type="text" placeholder="City" value={city} />
+        <input
+          type="text"
+          placeholder="Name"
+          value={name}
+          onChange={(e) => {
+            e.preventDefault();
+            setName(e.target.value);
+          }}
+        />
         <br />
-        <input type="text" placeholder="Position" value={position} />
+        <br />
+        <input
+          type="text"
+          placeholder="City"
+          value={city}
+          onChange={(e) => {
+            e.preventDefault();
+            setCity(e.target.value);
+          }}
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="Position"
+          value={position}
+          onChange={(e) => {
+            e.preventDefault();
+            setPosition(e.target.value);
+          }}
+        />
+        <br />
         <br />
         <input type="button" value="Submit"></input>
       </div>
