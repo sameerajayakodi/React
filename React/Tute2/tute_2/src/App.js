@@ -60,11 +60,16 @@ function App() {
           type="button"
           value="Submit"
           onClick={() => {
-            console.log({
-              imgUrl,
-              name,
-              city,
-              position,
+            setMyData((pre) => {
+              return [
+                ...pre,
+                {
+                  imgUrl,
+                  name,
+                  city,
+                  position,
+                },
+              ];
             });
             setImgUrl((pre) => {
               if (pre.length > 0) {
