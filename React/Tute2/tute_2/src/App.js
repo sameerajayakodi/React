@@ -53,7 +53,18 @@ function App() {
         />
         <br />
         <br />
-        <input type="button" value="Submit"></input>
+        <input
+          type="button"
+          value="Submit"
+          onClick={() =>
+            console.log({
+              imgUrl,
+              name,
+              city,
+              position,
+            })
+          }
+        ></input>
       </div>
       <div className="main_right"></div>
     </div>
