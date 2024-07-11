@@ -76,7 +76,6 @@ function App() {
             setImgUrl((pre) => {
               if (pre.length > 0) {
                 return "";
-                y;
               } else {
                 return pre;
               }
