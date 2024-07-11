@@ -63,6 +63,13 @@ function App() {
               city,
               position,
             });
+            setImgUrl((pre) => {
+              if (pre.length > 0) {
+                return "";
+              } else {
+                return pre;
+              }
+            });
           }}
         ></input>
       </div>
