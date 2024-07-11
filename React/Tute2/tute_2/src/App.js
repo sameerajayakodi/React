@@ -56,14 +56,14 @@ function App() {
         <input
           type="button"
           value="Submit"
-          onClick={() =>
+          onClick={() => {
             console.log({
               imgUrl,
               name,
               city,
               position,
-            })
-          }
+            });
+          }}
         ></input>
       </div>
       <div className="main_right"></div>
