@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Unit = ({imgUrl,name,city,position}) => {
+const Unit = ({image,name,city,position}) => {
   return (
     <div>
-      
+      <img src={image} alt={name} /><br />
+      <h3>{name}</h3>
+      <h4>{city}</h4>
+      <p>{position}</p>
     </div>
   )
 }
