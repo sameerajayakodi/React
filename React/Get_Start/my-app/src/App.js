@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <button>Click Me</button>
+    </>
+  );
 }
 
 export default App;
