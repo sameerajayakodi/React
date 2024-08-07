@@ -3,7 +3,7 @@ import "../Components/main.css";
 const Button = () => {
   return (
     <>
-      <button>Click Me</button>
+      <button className="btn">Click Me</button>
     </>
   );
 };
