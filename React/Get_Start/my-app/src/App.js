@@ -1,9 +1,10 @@
 import "./App.css";
+import Button from "./Components/Button";
 
 function App() {
   return (
     <>
-      <button>Click Me</button>
+      <Button />
     </>
   );
 }
