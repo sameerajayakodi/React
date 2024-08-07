@@ -1,4 +1,5 @@
 import React from "react";
+import "../Components/profile.css";
 
 const user = {
   name: "sameera jayakodi",
