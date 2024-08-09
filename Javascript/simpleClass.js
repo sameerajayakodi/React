@@ -4,6 +4,10 @@ class Rectangle {
     this.height = height;
     this.color = color;
     console.log("new rectangle created!");
+
+    getArea = () => {
+      return this.width * this.height;
+    };
   }
 }
 
