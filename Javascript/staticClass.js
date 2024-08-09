@@ -5,3 +5,4 @@ class Test {
 }
 
 const t1 = new Test();
+console.log(Test.calArea(5, 4));
