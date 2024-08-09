@@ -1,1 +1,5 @@
-console.log("hello sameera");
+class Rectangle {
+  constructor() {
+    console.log("new rectangle created!");
+  }
+}
