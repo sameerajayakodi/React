@@ -1,11 +1,11 @@
 function openFile() {
-  console.log("File Opened!");
+  console.log("File Opened.....!");
 }
 
 function addSomething() {
-  console.log("Something Added");
+  console.log("Something Added the file ......!");
 }
 
-function addSomething() {
-  console.log("Something Added");
+function removeSomething() {
+  console.log("Something Removed the file ......!");
 }
