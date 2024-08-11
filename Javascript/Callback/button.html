@@ -8,9 +8,10 @@
   <body>
     <button id="btn">Click Me</button>
     <script>
-      document.getElementById("btn").addEventListener("click", () => {
-        console.log("button clicked!");
-      });
+      document.getElementById("btn").addEventListener("click", click);
+      function click() {
+        console.log("Button Clicked!");
+      }
     </script>
   </body>
 </html>
