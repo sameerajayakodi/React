@@ -9,3 +9,6 @@ function addSomething() {
 function removeSomething() {
   console.log("Something Removed the file ......!");
 }
+
+openFile();
+addSomething();
