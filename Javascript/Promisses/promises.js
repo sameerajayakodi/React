@@ -1,5 +1,5 @@
-function doShower(){
+function takeShower() {}
 
-}
+function doHomework() {}
 
-function
+fun;
