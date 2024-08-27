@@ -1,10 +1,11 @@
+import './profile.css';
 
-export const Profile = () =>{
+export const Profile = ({name,uni,uni1}) =>{
     return(
-        <>
-        <h1>Sameera Jayakodi</h1>
-        <h2>Nsbm</h2>
-        <h3>Green University</h3>
-        </>
+        <div className="profile">
+        <h1>{name}</h1>
+        <h2>{uni}</h2>
+        <h3>{uni1}</h3>
+        </div>
     )
 };
