@@ -1,0 +1,10 @@
+.profile {
+  margin: 1rem;
+  border-radius: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: inter;
+  border: 1px solid black;
+  background-color: lightcoral;
+}
