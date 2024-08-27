@@ -1,14 +1,16 @@
 import { useState } from 'react'
-import './App.css'
-import { Profile } from './Profile'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <Profile/>
-    </>
+    <body className='body'>
+      
+      <button onClick={() => setCount((prevCount) => prevCount+1)}>+</button>
+      <h1>{count}</h1>
+      <button onClick={()=> setCount((prevCount) => prevCount-1)}>-</button>
+    </body>
   )
 }
 
