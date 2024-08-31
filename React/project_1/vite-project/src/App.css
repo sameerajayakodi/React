@@ -7,7 +7,5 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
-  justify-content: center;
-  background-color: #bbb;
+  justify-content: space-around;
 }
