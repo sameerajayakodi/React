@@ -1,5 +1,7 @@
 import "./App.css";
 import ArrayFilter from "./ArrayFilter";
+import ArrayFind from "./ArrayFind";
+import ArrayForEach from "./ArrayForEach";
 import ArrayMap from "./ArrayMap";
 import ArrayReduce from "./ArrayReduce";
 const myArray = [
@@ -34,6 +36,8 @@ function App() {
         <ArrayMap nameList={myArray} />
         <ArrayFilter nameList={myArray} />
         <ArrayReduce numberList={numbers} />
+        <ArrayForEach nameList={myArray} />
+        <ArrayFind nameList={myArray} numberList={numbers} />
       </header>
     </div>
   );
