@@ -1,10 +1,10 @@
 const ArrayReduce = ({numberList})=>{
 
-    const sum = numberList.reduce((total,num)=>(total+num));
+    const sum = numberList.reduce((total,num)=>(total+num),10);
     
     return(
         <div>
-            <h1>Array Filter</h1>
+            <h1>Sum Of Numbers</h1>
             <ul>
                 {
                     numberList.map((number,index)=>(<li key={index}>{number}</li>))
